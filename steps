@@ -1,0 +1,31 @@
+back end====
+
+# initiated the project with npm initiated
+
+#installed express and other dependencies
+
+#created scripts so you can run server and client easily from terminal
+
+#created server.js file for back end handling
+
+#created model for database models and schemas
+
+#created routes folder so you can handle routes more efficiently
+
+#connected the datase and did some transactions with the database
+
+front end===
+
+#created the client folder and installed react dependencies
+#created some scripts in the package.json file in server side so you can run both client and server at the same time
+
+#clean up video 3 around 10 min
+
+#bootstrap and all the dependencies 
+#created the navbar component using reactstrap
+#create shopping list component
+
+#implement redux
+The store will pass two arguments to the reducer: the current state tree and the action
+
+

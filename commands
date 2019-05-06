@@ -1,0 +1,61 @@
+This fuser 8080/tcp will print you PID of process bound on that port.
+
+And this fuser -k 8080/tcp will kill that process.
+
+npm init
+
+dependencies-----
+
+
+#body-parser==when a reaquest is made to server so we can read the body for post
+ requests
+concurrently=so we can run more than one npm script at a time
+mongoose=to interact with our library
+
+npm i express body-parser mongoose concurrently
+
+#nodemon will constantly watch our backend and reload
+its a dev dependency because its not needed for production
+
+npm i -D nodemon
+
+nodemon start server
+
+===================
+#no fuss no muss just create react app inside
+create-react-app .
+
+#create a proxy so you can easily access routes(in package.json file)
+
+#concurrently will run server and the client together instead seperately
+
+#"client" : "npm start --prefix client" //go to the client folder and run it this
+is the package json file in the server
+
+#can run both server and the client together body
+npm run dev
+
+#when you upload this into github node modules will not going to be included so run this instead
+npm run client-install
+
+
+#install bootstrap dependencies into the client folder
+reactstrap allows you to use bootstrap components as react components
+uuid generates random ids
+
+npm i bootstrap reactstrap uuid react-transition-group
+
+
+========================
+Implementing redux
+
+cd client 
+
+
+#react-redux binds redux and react together
+npm i redux react-redux redux-thunk
+
+==========
+axio is a http client
+cd client
+npm i axios 

@@ -1,0 +1,21 @@
+git init //initialize local git repository
+
+===git add <file> //add file(s) to index
+
+git add server.js
+git status //whats on the loading dock
+git rm --cached server.js
+
+git *.html //any html file
+
+git add . //add everything
+g
+
+git status //check status of working tree
+git commit // commit changes in index
+git push // push to remote repository
+git pull // pull latest from remote repository
+git clone // clone repository into a a new directory
+
+
+

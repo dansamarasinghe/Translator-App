@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 commit 1
 commit 2
 commit 3
+=======
+commit 1
+>>>>>>> parent of 6ea89a0... check 2
